@@ -382,3 +382,4 @@ else:
                         print('yes')
                 else:
                     print('no')
+#Used '.', '/', '\', ' ', '-' as possible separators. Checked if there are 3 separated numbers and if any of them can be a month, then cheked if one of the rest can be a date of the given month, considering there are always 28 days in February. Then checked, if the last number has 2 or 4 digits and therefore can be a year. 
